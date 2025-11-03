@@ -1,0 +1,30 @@
+# ================================
+# Skin Cancer Detection Project
+# Dependencies for Ensemble ML Model
+# ================================
+
+# Core Scientific Libraries
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.2
+
+# Deep Learning (PyTorch)
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# Gradient Boosting
+xgboost==2.1.2
+
+# Utility
+joblib==1.4.2
+
+# Optional: Visualization / Debugging (you can remove if unused)
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Suppress warnings
+warnings
+
+# To ensure reproducibility and consistent environment
+python-dotenv==1.0.1
